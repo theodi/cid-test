@@ -1,0 +1,10 @@
+before_script:
+- gem install cid
+script:
+- cid validate
+after_success:
+- ! '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
+  cid publish'
+env:
+  global:
+    secure: GqfXQcFFJLJwqIc7q4G7Ajn6EBfZVOJRmkzSf3TJjri3+HRpDvlsGJ/baK9QEnYG98hZQKe4YZ3lVoZ86avZ/vIdB5DjQBZxAcqdtv7rkJ+xMfNYCl9aRlKfnthzSbauYqCXNVpnov5SegfOE/3foVzKyKlk+4fvTHFDLD6GzVQ=
