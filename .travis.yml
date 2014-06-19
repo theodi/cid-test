@@ -7,4 +7,5 @@ after_success:
   cid publish'
 env:
   global:
-    secure: GqfXQcFFJLJwqIc7q4G7Ajn6EBfZVOJRmkzSf3TJjri3+HRpDvlsGJ/baK9QEnYG98hZQKe4YZ3lVoZ86avZ/vIdB5DjQBZxAcqdtv7rkJ+xMfNYCl9aRlKfnthzSbauYqCXNVpnov5SegfOE/3foVzKyKlk+4fvTHFDLD6GzVQ=
+  - secure: GqfXQcFFJLJwqIc7q4G7Ajn6EBfZVOJRmkzSf3TJjri3+HRpDvlsGJ/baK9QEnYG98hZQKe4YZ3lVoZ86avZ/vIdB5DjQBZxAcqdtv7rkJ+xMfNYCl9aRlKfnthzSbauYqCXNVpnov5SegfOE/3foVzKyKlk+4fvTHFDLD6GzVQ=
+  - secure: ZafIs2Lg2ff8wSgZQn7eU/yxmiQuf3cBn/bDspkITDxTeQCQVPJ+k3tmLeQYne1hyQZRt602ZJYZM8CJeWpgiKNMYAnUsZLeKjdCUAUi+l+MVb0pCK035+0I+ZI64xUcFN6zAvxl20+6l6/ZvyYnD2xr+q3lOgM+xQXmhpIHzF8=
